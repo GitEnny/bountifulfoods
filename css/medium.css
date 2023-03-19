@@ -1,0 +1,91 @@
+@media screen and (min-width:722px) {
+    body main#cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body main#cards section#drinks {
+        grid-column: 1/3;
+    }
+
+    body div#body header i#hamburger {
+        display:none;
+    }
+    body div#body header div#navContainer {
+        display:flex;
+        justify-content: center;
+    
+    }
+
+    body div#body header p {
+        font-size: 1.5em;
+    }
+    
+    body div#body header div#navContainer {
+        padding-left:30px;
+        
+    }
+
+    body div#body p#today{
+        padding-left:25px;
+    }
+    body div#body header div#navContainer a {
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
+
+    body div#body header div#navContainer:hover {
+        background-color: rgba(0,0,0,.2);        
+    }
+
+    body div#body header div#navContainer:hover a {
+        color:#1A4314;
+        
+    }
+
+    body div#body header div#navContainer a:hover {
+        background-color: rgb(161, 36, 36);
+        color:white;
+        border-radius: 5px;
+    }
+
+    body div#body header  {
+        display:grid;
+        grid-template-columns: 1fr;   
+    }
+
+    body div#body header div:first-child {
+        margin:0 50vw 0 0;
+        width:100%;
+    }
+
+    main#contact {
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    main#contact section#bio {
+        grid-column:1/3;
+    }
+
+    main#contact section#contactInfo {
+        grid-column: 1/2;
+    }
+
+    main#contact section#hours {
+        grid-column: 2/3;
+    }
+    main#contact iframe {
+        grid-column: 1/3;
+        
+        height: 40vw;
+    }
+
+    main#contact section#contactInfo p {
+        
+        text-align: center;
+    }
+
+}

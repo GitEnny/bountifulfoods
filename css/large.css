@@ -1,0 +1,49 @@
+@media screen and (min-width:1050px) {
+    body main#cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    body main#cards section#drinks {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    main#contact {
+        display:grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    main#contact section {
+        height:auto;
+    }
+
+    main#contact section#bio {
+        grid-column:1/3;
+        grid-row: 1/2;
+    }
+
+    main#contact section#contactInfo {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    main#contact section#hours {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    
+
+    main#contact iframe {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        width:90%;
+        overflow: hidden;
+        height: 40vw;
+    }
+
+}

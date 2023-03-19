@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <script src="scripts/main.js" defer></script>
+    <!-- <script src="scripts/main.js" defer></script> -->
+    <script src="scripts/fresh.js" defer></script>
 </head>
 
 <body>
@@ -58,37 +59,78 @@
 
 
 
-        <img id="hero" src="https://via.placeholder.com/1000x1000.png?text=PlaceHolder+Image" data-src="images/hero.jpg"
-            alt="assortment of fruits">
-        <main id="cards">
-            <section>
-                <h2>Carlsbad, California</h2>
-                <p>Carlsbad is known for its splendid oceanfront beaches. Home to one of the most
-                    tempered climates, it is a wonderful place to live and vacation. Come and visit our
-                    sprawling beaches with amazing weather and grab a drink to enjoy.</p>
-            </section>
-            <section id="weather">
 
-                <img id="weatherIcon" src="https://via.placeholder.com/100x100.png?text=PlaceHolder+Image" data-src="#"
-                    alt="#">
-                <div class="currentW">
-                    <p id="conditions"></p>
-                    <p id="temp">Temperature: <span></span>°F</p>
-                    <p id="humid">Humidity: <span></span>%</p>
+        <main id="form">
+            <h1>Drink Builder</h1>
+            <form onsubmit="details(event)" id="fullForm">
+                <fieldset>
+                    <legend>Builders Information</legend>
+                    <label class="top">
+                        First Name<span> *</span>
+                        <input type="text" name="fname" required>
+                    </label>
+                    <label class="top">
+                        Last Name<span> *</span>
+                        <input type="text" name="lname" required>
+                    </label>
+                    <label class="top">
+                        Email<span> *</span>
+                        <input type="email" name="email" placeholder="anybody@gmail.com" required>
+                    </label>
+                    <label class="top">
+                        Phone<span> *</span>
+                        <input type="tel" name="phone" placeholder="(123) 890-4567" required>
+                    </label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Drink Mix</legend>
+                    <label class="top">
+                        Drink Alias<span> *</span>
+                        <input type="text" name="dname" required>
+                    </label>
+                    <label class="sbs" id="fruit1">
+
+                        <input type="checkbox" name="box" value="label">
+                        <span class="fruit">populating...</span>
+                    </label>
+                    <label class="sbs" id="fruit2">
+
+                        <input type="checkbox" name="box" value="label">
+                        <span class="fruit">populating...</span>
+                    </label>
+                    <label class="sbs" id="fruit3">
+
+                        <input type="checkbox" name="box" value="label">
+                        <span class="fruit">populating...</span>
+                    </label>
+                    <label class="top">
+                        Special Instruction:
+                        <textarea name="instructions" rows="3" cols="30"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Make Drink" class="submitBtn">
+            </form>
+            <div id="outputForm" class="collapsed">
+                <div id="outputFormInfo">
+                    <p id="formDetails">Form Details: </p>
+                    <p id="drinkAlias">Drink Name: <span></span></p>
+                    <p id="orderDate">Date Ordered: <span></span></p>
+                    <p id="fnameOut">Name: <span></span></p>
+                    <p id="emailOut">Email: <span></span></p>
+                    <p id="phoneOut">Phone: <span></span></p>
+                    <p id="fruitsOut">Ingredients: <span></span></p>
+                    <p id="specialInsOut">Special Instruction: <span></span></p>
                 </div>
-                <div class="futureW">
-                    <p id="forcastHeading"><strong>3 Day Forecast</strong></p>
-                    <p id="temp1">Day1: <span></span>°F</p>
-                    <p id="temp2">Day2: <span></span>°F</p>
-                    <p id="temp3">Day3: <span></span>°F</p>
+                <div id="nutritionFacts">
+                    <p id="formNutrition">Nutritional Value: </p>
+                    <p id="carbs">Carbohydrates: <span>1000.00</span></p>
+                    <p id="protein">Protein: <span>1000.00</span></p>
+                    <p id="fat">Fat: <span>1000.00</span></p>
+                    <p id="sugar">Sugar: <span>1000.00</span></p>
+                    <p id="calories">Calories: <span>1000.00</span></p>
                 </div>
-            </section>
-            <section id="drinks">
-                <a href="fresh.html">Make a custom drink! Click Here!</a>
-                <h2>Drinks you've ordered</h2>
-                <h2 id="numDrinks"></h2>
-                <button id="reset">Reset</button>
-            </section>
+            </div>
         </main>
 
         <footer>
@@ -96,7 +138,7 @@
                     data-src="images/logo.png" alt="logo" /></a>
             <p class="companyName">Bountiful Foods</p>
             <div class="companyContact">
-                <p>(818) 456-7890</p>
+                <p>(123) 456-7890</p>
                 <p>BountifulFreshFoods.com</p>
                 <p>1 Ponto Rd <br>Carlsbad, CA 92011</p>
                 <a href="https://goo.gl/maps/6L3bTQkFS6CqxSq66" target="_blank">Map Link <i class="fa fa-map-marker" aria-hidden="true"></i></a>
