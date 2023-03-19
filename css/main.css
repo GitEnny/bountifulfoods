@@ -9,7 +9,7 @@ Purple: #e1a7d1
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-color: #F9A12EFF;
+    background-color: #ECB390;
     color:rgba(217, 190, 34, 0.386);
     font-family: 'Poppins', sans-serif;
 }
@@ -35,7 +35,7 @@ div.navSection.open{
     right:0;
     width: 95vw;
     height: 100vh;
-    background-color: #FC766AFF;
+    background-color: #dc8e34;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ div.navSection.open{
 
 div.navSection.open a, div.navSection.open i{
     text-decoration: none;
-    color: white;
+    color: rgb(188, 38, 38);
     padding: 15px;
 }
 
@@ -66,7 +66,7 @@ body.openNav #body  {
 }
 
 div.navSection.open a.mainNav:hover{
-    background-color: #9B4A97FF;
+    background-color: #DEA057;
     color: #777865;
     border-radius: 1rem;
 }
@@ -84,7 +84,7 @@ div.navSection.open div {
 
 
 header, footer{
-    background-color: #e1a7d1;
+    background-color: #DEA057;
     color: white;
     width:100vw;
     margin: 0 auto;
@@ -152,13 +152,13 @@ header div:nth-child(2) i:hover{
 }
 
 .fa:not(.fa-bars):not(.fa-times):not(.fa-map-marker):hover {
-    background-color: rgb(161, 36, 36);
+    background-color: rgb(149, 25, 25);
     color: white;
     border-radius: 1rem;
 }
 
 .fa-facebook, .fa-linkedin, .fa-twitter {
-    background: #FC766AFF;
+    background: #c04529;
 }
 
 
@@ -174,8 +174,8 @@ header div:nth-child(2) i:hover{
     padding:10px;
     margin: 0;
     text-align: center;
-    background-color: #e1a7d1;
-    color: white;
+    background-color: #DEA057;
+    color: rgb(195, 41, 41);
 }
 
 
@@ -193,7 +193,7 @@ img#hero {
 section {
     height: 300px;
     width: 300px;
-    background-color: #e8c61ad0;
+    background-color: #DEA057;
     box-shadow: 10px 10px 15px rgba(0,0,0,.8),-10px 0px 15px rgba(0,0,0,.8);
     margin:15px auto;
     text-align: center;
@@ -279,7 +279,7 @@ section#drinks h2#numDrinks{
 section#drinks button{
     border-radius: .5em;
     padding:15px 60px;
-    background-color: rgb(193, 34, 34);
+    background-color: rgb(178, 26, 26);
     border:none;
     color:white;
     font-size: 1.1em;
@@ -298,13 +298,13 @@ main#form form#fullForm.collapsed {
 
 main#form h1 {
     text-align: center;
-    color:#1A4314;
+    color:#DEA057;
 }
 
 main#form form {
     display: flex;
     flex-direction: column;
-    background-color: #e8c61ad0;
+    background-color: #DEA057;
     width:80%;
     margin:15px auto;
     padding: 15px;
@@ -314,8 +314,8 @@ main#form form {
 
 main#form form fieldset{
     margin-bottom: 1rem;
-    color: white;
-    border-color:white;
+    color: rgb(177, 44, 44);
+    border-color:rgb(183, 36, 36);
     
 }
 
@@ -350,7 +350,7 @@ main#form form fieldset label span.fruit{
 
 form .submitBtn {
     color: white;
-    background-color: rgb(232, 49, 49);
+    background-color: rgb(156, 23, 23);
     padding: .75rem;
     width: 80%;
     margin: 0 auto;
@@ -375,7 +375,7 @@ main#form div#outputForm p{
 }
 
 main#form div#outputForm {
-    background-color: #1a4314;
+    background-color: #DEA057;
     width:80%;
     margin:15px auto;
     padding: 15px;
@@ -415,7 +415,7 @@ main#contact section#contactInfo p, main#contact section#hours p{
 main#contact section#contactInfo p:first-child,main#contact section#hours p {
     font-size: 25px;
     text-align: center;
-    border-bottom: thin white solid;
+    border-bottom: thin rgb(199, 40, 40) solid;
     padding-bottom: 10px;
 }
 main#contact section#contactInfo p:nth-child(2){
@@ -444,7 +444,7 @@ main#contact section#hours table{
 main#contact section#hours table tr td{
     padding: 5px;
     font-size: 1.1em;
-    border:thin solid white;
+    border:thin solid rgb(200, 51, 51);
     
 }
 main#contact section#hours table tr td:first-child{
