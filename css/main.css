@@ -279,7 +279,7 @@ section#drinks h2#numDrinks{
 section#drinks button{
     border-radius: .5em;
     padding:15px 60px;
-    background-color: rgb(161, 36, 36);
+    background-color: rgb(193, 34, 34);
     border:none;
     color:white;
     font-size: 1.1em;
@@ -304,7 +304,7 @@ main#form h1 {
 main#form form {
     display: flex;
     flex-direction: column;
-    background-color: #1a4314;
+    background-color: #e8c61ad0;
     width:80%;
     margin:15px auto;
     padding: 15px;
@@ -350,7 +350,7 @@ main#form form fieldset label span.fruit{
 
 form .submitBtn {
     color: white;
-    background-color: rgb(161, 36, 36);
+    background-color: rgb(232, 49, 49);
     padding: .75rem;
     width: 80%;
     margin: 0 auto;
